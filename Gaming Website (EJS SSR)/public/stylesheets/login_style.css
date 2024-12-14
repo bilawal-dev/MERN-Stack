@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Darker Grotesque" , "Poppins";
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/login_background.jpg);
+    background-size: cover;
+    font-family: "Fira Sans", sans-serif;;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+header .nav .logo img{
+    margin-left: 20px;
+    height: 110px;
+    width: 130px;
+    animation: logo_blink;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes logo_blink {
+    0% {
+        opacity: 0;
+    }
+
+    100%{
+        opacity: .8;
+    }
+}
+
+header .nav .logo img:hover{
+    opacity: 1;
+    animation-play-state: paused;
+}
+
+.container{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    background-color: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50% );
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px 5px rgb(0, 0, 0, .3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1{
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255, 0.9);
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.container .enter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.container .enter input{
+    height: 40px;
+    width: 290px;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    border: 2px solid rgb(0, 0, 0, .2);
+    background: none;
+    color: white;
+    padding-left: 20px;
+}
+
+.container .enter input::placeholder{
+    font-size: 15px;
+    color: rgb(255, 255, 255, 1);
+}
+
+.Username{
+    margin-bottom: 25px;
+}
+
+.container .enter i{
+    color: white;
+    position: absolute;
+    right: 12%;
+    top: 28%;
+}
+
+#second{
+    top: 48.5%;
+}
+
+.container .Remember-Forget{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.Remember{
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.container .Remember-Forget span{
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1px;
+}
+
+.container .Remember-Forget a{
+    color: white;
+    font-size: 13px;
+    margin-left: 75px;
+}
+
+.container button{
+    align-self: center;
+    font-weight: 600;
+    color: rgb(0, 0, 0, .8);
+    height: 40px;
+    width: 290px;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    background: black;
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+.container .Register{
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    align-self: center;
+}
+
+.container .Register a{
+    font-weight: 500;
+    margin-left: 5px;
+    color: white;
+    padding-bottom: 3px;
+}
+
+.container .Register a:hover{
+    border-bottom: 2px solid rgba(255, 255, 255, .3)
+}
+
+.Username:hover{
+    cursor: pointer;
+}
+
+.Password:hover{
+    cursor: pointer;
+}
+
+.container .Remember-Forget a:hover{
+    border-bottom: 2px solid rgba(255, 255, 255, .5)
+}
+
+.container button:hover{
+    background-color: rgba(255, 255, 255, .2);
+    border: 2px solid rgba(255, 255, 255, .5);
+    color: white;
+}
+
+.container .enter input:focus{
+    outline: none;
+}

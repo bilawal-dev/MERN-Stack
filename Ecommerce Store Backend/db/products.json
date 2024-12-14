@@ -1,0 +1,122 @@
+[
+    {
+        "name": "iPhone 14",
+        "price": 999.99,
+        "company": "apple",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "Galaxy S21",
+        "price": 799.99,
+        "company": "samsung",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "Itel Vision 1",
+        "price": 149.99,
+        "company": "itel",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "Redmi Note 10",
+        "price": 199.99,
+        "company": "redmi",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "iPad Pro",
+        "price": 799.99,
+        "company": "apple",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "Samsung A52",
+        "price": 399.99,
+        "company": "samsung",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "Itel S16",
+        "price": 129.99,
+        "company": "itel",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "Redmi 9A",
+        "price": 99.99,
+        "company": "redmi",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "MacBook Air",
+        "price": 999.99,
+        "company": "apple",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "Galaxy Tab S7",
+        "price": 649.99,
+        "company": "samsung",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "iPhone 13",
+        "price": 799.99,
+        "company": "apple",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "Galaxy Note 20",
+        "price": 999.99,
+        "company": "samsung",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "Redmi Note 11",
+        "price": 249.99,
+        "company": "redmi",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "Itel P37",
+        "price": 179.99,
+        "company": "itel",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "MacBook Pro",
+        "price": 1299.99,
+        "company": "apple",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "Samsung A72",
+        "price": 499.99,
+        "company": "samsung",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "Redmi 10C",
+        "price": 149.99,
+        "company": "redmi",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "Itel S17",
+        "price": 99.99,
+        "company": "itel",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "Galaxy Z Fold 3",
+        "price": 1799.99,
+        "company": "samsung",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    },
+    {
+        "name": "iPhone SE",
+        "price": 399.99,
+        "company": "apple",
+        "createdAt": "2024-11-01T12:00:00.000Z"
+    }
+]
